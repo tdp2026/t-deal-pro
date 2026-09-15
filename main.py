@@ -27,7 +27,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(reply_text)
 
 def main():
-    TOKEN = "8615081605:AAHPghjKyYB0alTH6cHqgkBIRz7y62QjspY"
+    TOKEN = 8615081605:"AAHPghjKyYB0alTH6cHqgkBIRz7y62QjspY"
 
     application = ApplicationBuilder().token(TOKEN).build()
 
