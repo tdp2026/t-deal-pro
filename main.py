@@ -10,7 +10,7 @@ logging.basicConfig(
 )
 
 # الحصول على التوكن من متغيرات البيئة أو التوكن المباشر
-TOKEN = os.getenv("BOT_TOKEN", "8615081605:AAHU4-psk175-pg3ZYyyEscefPkkJqq1FV8")
+TOKEN =8615081605:AAHPghjKyYB0alTH6cHqgkBIRz7y62QjspY
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("أهلاً بك في بوت T-Deal Pro! البوت يعمل الآن بنجاح.")
